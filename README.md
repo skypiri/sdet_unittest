@@ -1,4 +1,4 @@
-# SDET_UNITTEST (윤찬식 강사)
+# SDET_UNITTEST
 Unittest 실습내용 정리
 
 강사 : 윤찬식
@@ -23,3 +23,4 @@ Test Double - Stub, Fake, Spy, Mock
 		* Intelli J Community 버전을 사용함.
 	- junit4를 가장 많이 사용
 	- junit5는 junit4와 80% 정도 비슷하다. 
+***
