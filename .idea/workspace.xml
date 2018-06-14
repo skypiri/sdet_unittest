@@ -17,8 +17,18 @@
       <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/unittest/ex1/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="294">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.testAdd">
+  <component name="RunManager" selected="JUnit.CalculatorTest.addTest">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unittest.ex1.Program" />
       <module name="unittest-examples" />
@@ -125,6 +135,29 @@
       <option name="MAIN_CLASS_NAME" value="unittest.ex1.CalculatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalculatorTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex1" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex1.CalculatorTest" />
+      <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -199,9 +232,11 @@
       <item itemvalue="Application.Program" />
       <item itemvalue="JUnit.CalculatorTest.testAdd" />
       <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CalculatorTest.addTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.addTest" />
         <item itemvalue="JUnit.CalculatorTest.testAdd" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.Program" />
@@ -230,6 +265,15 @@
     </history-entry>
     <history-entry file="CalculatorTest - 2018.06.14 at 11h 28m 51s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testAdd - 2018.06.14 at 11h 30m 15s.xml">
+      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_addTest - 2018.06.14 at 11h 47m 25s.xml">
+      <configuration name="CalculatorTest.addTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_addTest - 2018.06.14 at 11h 50m 01s.xml">
+      <configuration name="CalculatorTest.addTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -270,8 +314,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/unittest/ex1/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="294">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
