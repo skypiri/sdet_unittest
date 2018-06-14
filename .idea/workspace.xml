@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittest/ex5/TerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/ex5/TerminalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="UserNameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="164">
+              <caret line="61" column="67" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1638#1639#0" expanded="true" />
@@ -146,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserNameTest.isValidNameTest">
+  <component name="RunManager" selected="JUnit.UserNameTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -163,29 +161,6 @@
       <option name="PACKAGE_NAME" value="unittest.ex4" />
       <option name="MAIN_CLASS_NAME" value="unittest.ex4.HamcrestExamples" />
       <option name="METHOD_NAME" value="getAccountNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="HamcrestExamples.newBankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittest.ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex4" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex4.HamcrestExamples" />
-      <option name="METHOD_NAME" value="newBankTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -233,6 +208,29 @@
       <option name="MAIN_CLASS_NAME" value="unittest.ex5.TerminalTest" />
       <option name="METHOD_NAME" value="name2" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex6" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex6.UserNameTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -304,19 +302,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HamcrestExamples.newBankTest" />
       <item itemvalue="JUnit.HamcrestExamples.getAccountNameTest" />
       <item itemvalue="JUnit.TerminalTest" />
       <item itemvalue="JUnit.TerminalTest.name2" />
       <item itemvalue="JUnit.UserNameTest.isValidNameTest" />
+      <item itemvalue="JUnit.UserNameTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserNameTest" />
         <item itemvalue="JUnit.UserNameTest.isValidNameTest" />
         <item itemvalue="JUnit.TerminalTest" />
         <item itemvalue="JUnit.TerminalTest.name2" />
         <item itemvalue="JUnit.HamcrestExamples.getAccountNameTest" />
-        <item itemvalue="JUnit.HamcrestExamples.newBankTest" />
       </list>
     </recent_temporary>
   </component>
@@ -334,12 +332,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TerminalTest - 2018.06.14 at 16h 32m 37s.xml">
-      <configuration name="TerminalTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TerminalTest - 2018.06.14 at 16h 32m 55s.xml">
-      <configuration name="TerminalTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TerminalTest - 2018.06.14 at 16h 34m 17s.xml">
       <configuration name="TerminalTest" configurationId="JUnit" />
     </history-entry>
@@ -364,6 +356,12 @@
     <history-entry file="UserNameTest_isValidNameTest - 2018.06.15 at 08h 25m 37s.xml">
       <configuration name="UserNameTest.isValidNameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserNameTest - 2018.06.15 at 08h 26m 46s.xml">
+      <configuration name="UserNameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserNameTest - 2018.06.15 at 08h 33m 08s.xml">
+      <configuration name="UserNameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -371,7 +369,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -479,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="164">
+          <caret line="61" column="67" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1638#1639#0" expanded="true" />

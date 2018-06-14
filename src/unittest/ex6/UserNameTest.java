@@ -14,6 +14,12 @@ import static org.junit.Assert.*;
 //  ==> 데이터를 아주 조금씩 바꿔가며, 수차례 반복 검사하는 데이터 중심 테스트가 있을 경우
 //  코드의 중복을 없애준다.
 
+//  Cons
+//  1. 복잡하다.
+//      : xUnit Test Framework마다 정의하는 방식에 차이가 있다.
+//  2. 테스트가 어떤 데이터를 통해 수행되는지 알기 어렵다.
+//      : junit4에서는 해당 문제를 보완할 수 있습니다.
+
 //  파라미터화 테스트를 적용하는 방법
 //  1. 기존의 Test Runner와 동작 방식이 다릅니다.
 //      * 기존 방식
@@ -53,18 +59,19 @@ public class UserNameTest {
 //        };
 //    }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "{index} - name({0}), age({1})")
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {
-                {"tom"},
-                {"bob"},
-                {"alice"}
+                {"tom", 10},
+                {"bob", 20},
+                {"alice", 30},
+                {"clock", 40}
         });
     }
 
     private String name;
 //  3. data set을 전달받기 위한 생성자 / 필드 정의
-    public UserNameTest(String name) {
+    public UserNameTest(String name, int age) {
         this.name = name;
     }
 
