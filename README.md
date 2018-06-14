@@ -24,3 +24,5 @@ Test Double - Stub, Fake, Spy, Mock
 	- junit4를 가장 많이 사용
 	- junit5는 junit4와 80% 정도 비슷하다. 
 ***
+
+Git --> Hook commit --> CI (Jenkins, TravisCI, CircleCI)
