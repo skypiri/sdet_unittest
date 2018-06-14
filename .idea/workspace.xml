@@ -60,8 +60,8 @@
       <file leaf-file-name="xUnitExamples.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+            <state relative-caret-position="242">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-start-column="2" selection-end-line="111" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1708#1709#0" expanded="true" />
@@ -161,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.xUnitExamples">
+  <component name="RunManager" selected="JUnit.xUnitExamples.equalsTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -204,6 +204,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="xUnitExamples.equalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex3" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex3.xUnitExamples" />
+      <option name="METHOD_NAME" value="equalsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="xUnitExamples.foo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
@@ -217,29 +240,6 @@
       <option name="PACKAGE_NAME" value="unittest.ex3" />
       <option name="MAIN_CLASS_NAME" value="unittest.ex3.xUnitExamples" />
       <option name="METHOD_NAME" value="foo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="xUnitExamples.parseIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittest.ex3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex3" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex3.xUnitExamples" />
-      <option name="METHOD_NAME" value="parseIntTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -319,19 +319,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.xUnitExamples.parseIntTest" />
       <item itemvalue="JUnit.xUnitExamples" />
       <item itemvalue="JUnit.xUnitExamples.parseIntTest_bad" />
       <item itemvalue="JUnit.xUnitExamples.slowFeatureTest" />
       <item itemvalue="JUnit.xUnitExamples.foo" />
+      <item itemvalue="JUnit.xUnitExamples.equalsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.xUnitExamples.equalsTest" />
         <item itemvalue="JUnit.xUnitExamples" />
         <item itemvalue="JUnit.xUnitExamples.foo" />
         <item itemvalue="JUnit.xUnitExamples.slowFeatureTest" />
         <item itemvalue="JUnit.xUnitExamples.parseIntTest_bad" />
-        <item itemvalue="JUnit.xUnitExamples.parseIntTest" />
       </list>
     </recent_temporary>
   </component>
@@ -349,21 +349,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="xUnitExamples_parseIntTest_bad - 2018.06.14 at 14h 36m 13s.xml">
-      <configuration name="xUnitExamples.parseIntTest_bad" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="xUnitExamples - 2018.06.14 at 14h 36m 54s.xml">
-      <configuration name="xUnitExamples" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="xUnitExamples - 2018.06.14 at 14h 38m 52s.xml">
-      <configuration name="xUnitExamples" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="xUnitExamples_slowFeatureTest - 2018.06.14 at 14h 41m 16s.xml">
-      <configuration name="xUnitExamples.slowFeatureTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="xUnitExamples_slowFeatureTest - 2018.06.14 at 14h 41m 35s.xml">
-      <configuration name="xUnitExamples.slowFeatureTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="xUnitExamples_foo - 2018.06.14 at 15h 28m 17s.xml">
       <configuration name="xUnitExamples.foo" configurationId="JUnit" />
     </history-entry>
@@ -378,6 +363,21 @@
     </history-entry>
     <history-entry file="xUnitExamples - 2018.06.14 at 15h 30m 04s.xml">
       <configuration name="xUnitExamples" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="xUnitExamples_equalsTest - 2018.06.14 at 15h 33m 58s.xml">
+      <configuration name="xUnitExamples.equalsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="xUnitExamples_equalsTest - 2018.06.14 at 15h 34m 13s.xml">
+      <configuration name="xUnitExamples.equalsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="xUnitExamples_equalsTest - 2018.06.14 at 15h 36m 07s.xml">
+      <configuration name="xUnitExamples.equalsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="xUnitExamples_equalsTest - 2018.06.14 at 15h 36m 52s.xml">
+      <configuration name="xUnitExamples.equalsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="xUnitExamples_equalsTest - 2018.06.14 at 15h 37m 51s.xml">
+      <configuration name="xUnitExamples.equalsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -464,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        <state relative-caret-position="242">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-start-column="2" selection-end-line="111" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1708#1709#0" expanded="true" />

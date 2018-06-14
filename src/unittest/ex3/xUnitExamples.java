@@ -10,6 +10,8 @@ import org.junit.Test;
 import java.util.concurrent.TimeUnit;
 
 import static junit.framework.TestCase.fail;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class xUnitExamples {
@@ -76,6 +78,38 @@ public class xUnitExamples {
     @Test
     public void foo() {
         fail("TODO : 작성중입니다.");
+    }
+
+    //  4. 단언문
+    //  : assertEquals : 배열, 실수의 경우는 주의해야 합니다.
+    //      assertNotNull
+    //      assertTrue
+    //      assertFalse
+    //  ...
+
+    @Test
+    public void equalsTest() throws Exception {
+        String[] names = {"Alice", "Tom"};
+        String[] actual = {"Alice", "Tom"};
+
+        // 배열 전용 단언문
+//        assertEquals(names, actual);      // 좋은 방법은 아닙니다. (deprecated)
+        assertArrayEquals(names, actual);
+
+        //  double, float ==> Floating Point Type (부동 소수점)
+        //  ==> 연산에 오차가 발생한다.
+        double expected = 0.7;
+        double result = 0.1 * 7;
+
+        // 두 값의 차이가 특정 오차 범위내에 들어오는 것으로 동일한 것으로 간주할 수 있다.
+        assertEquals(expected, result, 0.000001);
+        // 아래와 같이 비교해보면 항상 diff로 나온다.
+//        if(expected == result) {
+//            System.out.println("same");
+//        } else {
+//            System.out.println("Diff");
+//        }
+//        assertEquals(expected, result);
     }
 }
 
