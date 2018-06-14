@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unittest/ex1/unittest/ex2/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/ex2/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittest/ex2/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="462">
+              <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2479#2480#0" expanded="true" />
@@ -53,6 +53,18 @@
                 <element signature="e#1896#1897#0" expanded="true" />
                 <element signature="e#1924#1925#0" expanded="true" />
                 <element signature="e#1952#1953#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xUnitExamples.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/unittest/ex1/unittest/ex2/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/ex2/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/unittest/ex2/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java" />
       </list>
     </option>
   </component>
@@ -123,14 +136,7 @@
               <item name="Unittest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="ex1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
+              <item name="ex3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.xUnitExamples.slowFeatureTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -181,98 +187,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ex2" />
-      <option name="MAIN_CLASS_NAME" value="ex2.CalculatorTest" />
-      <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CalculatorTest.subTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittest.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex1" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex1.CalculatorTest" />
-      <option name="METHOD_NAME" value="subTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CalculatorTest.subTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ex2" />
-      <option name="MAIN_CLASS_NAME" value="ex2.CalculatorTest" />
-      <option name="METHOD_NAME" value="subTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CalculatorTest.test_add_10plus32_expected42" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ex2" />
-      <option name="MAIN_CLASS_NAME" value="ex2.CalculatorTest" />
-      <option name="METHOD_NAME" value="test_add_10plus32_expected42" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -280,6 +194,98 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="xUnitExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex3" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex3.xUnitExamples" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="xUnitExamples.parseIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex3" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex3.xUnitExamples" />
+      <option name="METHOD_NAME" value="parseIntTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="xUnitExamples.parseIntTest_bad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex3" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex3.xUnitExamples" />
+      <option name="METHOD_NAME" value="parseIntTest_bad" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="xUnitExamples.slowFeatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex3" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex3.xUnitExamples" />
+      <option name="METHOD_NAME" value="slowFeatureTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -312,19 +318,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest.subTest" />
-      <item itemvalue="JUnit.CalculatorTest.test_add_10plus32_expected42 (1)" />
       <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.addTest (1)" />
-      <item itemvalue="JUnit.CalculatorTest.subTest (1)" />
+      <item itemvalue="JUnit.xUnitExamples.parseIntTest" />
+      <item itemvalue="JUnit.xUnitExamples" />
+      <item itemvalue="JUnit.xUnitExamples.parseIntTest_bad" />
+      <item itemvalue="JUnit.xUnitExamples.slowFeatureTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.xUnitExamples.slowFeatureTest" />
+        <item itemvalue="JUnit.xUnitExamples" />
+        <item itemvalue="JUnit.xUnitExamples.parseIntTest_bad" />
+        <item itemvalue="JUnit.xUnitExamples.parseIntTest" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.subTest (1)" />
-        <item itemvalue="JUnit.CalculatorTest.addTest (1)" />
-        <item itemvalue="JUnit.CalculatorTest.test_add_10plus32_expected42 (1)" />
-        <item itemvalue="JUnit.CalculatorTest.subTest" />
       </list>
     </recent_temporary>
   </component>
@@ -342,35 +348,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2018.06.14 at 13h 47m 26s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="xUnitExamples - 2018.06.14 at 14h 33m 30s.xml">
+      <configuration name="xUnitExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_addTest_(1) - 2018.06.14 at 13h 47m 36s.xml">
-      <configuration name="CalculatorTest.addTest (1)" configurationId="JUnit" />
+    <history-entry file="xUnitExamples - 2018.06.14 at 14h 33m 57s.xml">
+      <configuration name="xUnitExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.06.14 at 13h 47m 47s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="xUnitExamples_parseIntTest - 2018.06.14 at 14h 34m 41s.xml">
+      <configuration name="xUnitExamples.parseIntTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.06.14 at 13h 47m 56s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="xUnitExamples - 2018.06.14 at 14h 35m 27s.xml">
+      <configuration name="xUnitExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.06.14 at 13h 48m 40s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="xUnitExamples_parseIntTest - 2018.06.14 at 14h 35m 47s.xml">
+      <configuration name="xUnitExamples.parseIntTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_subTest_(1) - 2018.06.14 at 13h 48m 57s.xml">
-      <configuration name="CalculatorTest.subTest (1)" configurationId="JUnit" />
+    <history-entry file="xUnitExamples_parseIntTest_bad - 2018.06.14 at 14h 36m 13s.xml">
+      <configuration name="xUnitExamples.parseIntTest_bad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.06.14 at 13h 49m 07s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="xUnitExamples - 2018.06.14 at 14h 36m 54s.xml">
+      <configuration name="xUnitExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.06.14 at 14h 09m 45s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="xUnitExamples - 2018.06.14 at 14h 38m 52s.xml">
+      <configuration name="xUnitExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.06.14 at 14h 15m 19s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="xUnitExamples_slowFeatureTest - 2018.06.14 at 14h 41m 16s.xml">
+      <configuration name="xUnitExamples.slowFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.06.14 at 14h 18m 42s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="xUnitExamples_slowFeatureTest - 2018.06.14 at 14h 41m 35s.xml">
+      <configuration name="xUnitExamples.slowFeatureTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -386,11 +392,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32934782" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -437,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unittest/ex2/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="462">
+          <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2479#2480#0" expanded="true" />
@@ -451,6 +457,16 @@
             <element signature="e#1896#1897#0" expanded="true" />
             <element signature="e#1924#1925#0" expanded="true" />
             <element signature="e#1952#1953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
