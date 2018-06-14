@@ -4,6 +4,7 @@ package unittest.ex3;
 //  xUnit Test Framework이 가지고 있는 공통의 기능을 정리해봅시다.
 //  ==> Reference로 junit4를 사용합니다.
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -50,7 +51,7 @@ public class xUnitExamples {
     //  2. 비기능 테스트 - 시간
     public void slowFeature() throws InterruptedException {
         // 2 sec
-        TimeUnit.MILLISECONDS.sleep(2500);
+        TimeUnit.MILLISECONDS.sleep(1000);
 
     }
 
@@ -65,5 +66,16 @@ public class xUnitExamples {
         slowFeature();
     }
 
+
+    //  3. 테스트 비활성화
+    // 아래처럼 작성 중이거나, 유지 보수 대상 테스트를 주석 처리하면 안됩니다.
+    //  ==> 잊혀집니다.
+    //  ==> 비활성화하는 기능을 제공하고 있습니다.
+    //  junit5 : Ignore --> Disabled (GTest에서도 사용)
+    @Ignore(value = "지금 작성중이며, 유지보수가 필요합니다.")
+    @Test
+    public void foo() {
+        fail("TODO : 작성중입니다.");
+    }
 }
 
