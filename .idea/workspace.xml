@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/unittest/ex4/HamcrestExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unittest/ex5/TerminalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,76 +15,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittest/ex1/CalculatorTest.java">
+      <file leaf-file-name="TerminalTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/unittest/ex5/TerminalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="118" column="6" lean-forward="true" selection-start-line="96" selection-end-line="118" />
+            <state relative-caret-position="515">
+              <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#test_addTest#0;class#CalculatorTest#0" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittest/ex2/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="114" column="29" lean-forward="true" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2479#2480#0" expanded="true" />
-                <element signature="e#2504#2505#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
-                <element signature="e#1784#1785#0" expanded="true" />
-                <element signature="e#1814#1815#0" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xUnitExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
-                <element signature="e#1731#1732#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HamcrestExamples.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/unittest/ex4/HamcrestExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#1992#1993#0" expanded="true" />
+                <element signature="e#2042#2043#0" expanded="true" />
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2296#2297#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,6 +54,8 @@
         <option value="$PROJECT_DIR$/src/unittest/ex2/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/unittest/ex3/xUnitExamples.java" />
         <option value="$PROJECT_DIR$/src/unittest/ex4/HamcrestExamples.java" />
+        <option value="$PROJECT_DIR$/src/unittest/ex5/Terminal.java" />
+        <option value="$PROJECT_DIR$/src/unittest/ex5/TerminalTest.java" />
       </list>
     </option>
   </component>
@@ -157,14 +100,7 @@
               <item name="Unittest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="ex3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="ex4" type="462c0819:PsiDirectoryNode" />
+              <item name="ex5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,32 +124,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HamcrestExamples.getAccountNameTest">
+  <component name="RunManager" selected="JUnit.TerminalTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="HamcrestExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittest.ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex4" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex4.HamcrestExamples" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="HamcrestExamples.getAccountNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
@@ -284,11 +197,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration name="TerminalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="unittest.ex5" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex5.TerminalTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -300,20 +220,36 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="xUnitExamples.equalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TerminalTest.name2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unittest.ex3.*" />
+          <option name="PATTERN" value="unittest.ex5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex3" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex3.xUnitExamples" />
-      <option name="METHOD_NAME" value="equalsTest" />
+      <option name="PACKAGE_NAME" value="unittest.ex5" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex5.TerminalTest" />
+      <option name="METHOD_NAME" value="name2" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -346,19 +282,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.xUnitExamples.equalsTest" />
       <item itemvalue="JUnit.HamcrestExamples.getBalanceTest" />
-      <item itemvalue="JUnit.HamcrestExamples" />
       <item itemvalue="JUnit.HamcrestExamples.newBankTest" />
       <item itemvalue="JUnit.HamcrestExamples.getAccountNameTest" />
+      <item itemvalue="JUnit.TerminalTest" />
+      <item itemvalue="JUnit.TerminalTest.name2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TerminalTest" />
+        <item itemvalue="JUnit.TerminalTest.name2" />
         <item itemvalue="JUnit.HamcrestExamples.getAccountNameTest" />
         <item itemvalue="JUnit.HamcrestExamples.newBankTest" />
         <item itemvalue="JUnit.HamcrestExamples.getBalanceTest" />
-        <item itemvalue="JUnit.HamcrestExamples" />
-        <item itemvalue="JUnit.xUnitExamples.equalsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -376,35 +312,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="xUnitExamples_equalsTest - 2018.06.14 at 15h 37m 59s.xml">
-      <configuration name="xUnitExamples.equalsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestExamples_getBalanceTest - 2018.06.14 at 15h 46m 22s.xml">
-      <configuration name="HamcrestExamples.getBalanceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestExamples_getBalanceTest - 2018.06.14 at 15h 47m 17s.xml">
-      <configuration name="HamcrestExamples.getBalanceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestExamples - 2018.06.14 at 15h 47m 53s.xml">
-      <configuration name="HamcrestExamples" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestExamples_getBalanceTest - 2018.06.14 at 15h 51m 50s.xml">
-      <configuration name="HamcrestExamples.getBalanceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestExamples_newBankTest - 2018.06.14 at 15h 53m 23s.xml">
-      <configuration name="HamcrestExamples.newBankTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestExamples_newBankTest - 2018.06.14 at 15h 54m 06s.xml">
-      <configuration name="HamcrestExamples.newBankTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestExamples_newBankTest - 2018.06.14 at 15h 54m 26s.xml">
-      <configuration name="HamcrestExamples.newBankTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HamcrestExamples_getAccountNameTest - 2018.06.14 at 15h 55m 09s.xml">
       <configuration name="HamcrestExamples.getAccountNameTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HamcrestExamples_getAccountNameTest - 2018.06.14 at 15h 55m 30s.xml">
       <configuration name="HamcrestExamples.getAccountNameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerminalTest - 2018.06.14 at 16h 24m 02s.xml">
+      <configuration name="TerminalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerminalTest - 2018.06.14 at 16h 25m 29s.xml">
+      <configuration name="TerminalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerminalTest - 2018.06.14 at 16h 30m 56s.xml">
+      <configuration name="TerminalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerminalTest - 2018.06.14 at 16h 32m 37s.xml">
+      <configuration name="TerminalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerminalTest - 2018.06.14 at 16h 32m 55s.xml">
+      <configuration name="TerminalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerminalTest - 2018.06.14 at 16h 34m 17s.xml">
+      <configuration name="TerminalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerminalTest_name2 - 2018.06.14 at 16h 35m 22s.xml">
+      <configuration name="TerminalTest.name2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerminalTest - 2018.06.14 at 16h 35m 32s.xml">
+      <configuration name="TerminalTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -503,8 +439,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unittest/ex4/HamcrestExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="-294">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
@@ -513,6 +449,20 @@
             <element signature="e#295#296#0" expanded="true" />
             <element signature="e#404#405#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittest/ex5/TerminalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
           </folding>
         </state>
       </provider>
