@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/unittest/ex1/unittest/ex2/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/unittest-examples/unittest/ex1/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/unittest-examples/unittest/ex1/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/unittest-examples/unittest/ex1/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/unittest-examples/unittest/ex1/CalculatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unittest/ex1/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/ex1/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,12 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/unittest/ex1/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="431">
+              <caret line="118" column="6" lean-forward="true" selection-start-line="96" selection-end-line="118" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#test_addTest#0;class#CalculatorTest#0" />
                 <element signature="e#943#944#0" expanded="true" />
                 <element signature="e#973#974#0" expanded="true" />
                 <element signature="e#1007#1008#0" expanded="true" />
@@ -28,6 +34,26 @@
                 <element signature="e#1090#1091#0" expanded="true" />
                 <element signature="e#1126#1127#0" expanded="true" />
                 <element signature="e#1154#1155#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/unittest/ex1/unittest/ex2/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1754#1755#0" expanded="true" />
+                <element signature="e#1784#1785#0" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
+                <element signature="e#1840#1841#0" expanded="true" />
+                <element signature="e#1870#1871#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#1924#1925#0" expanded="true" />
+                <element signature="e#1952#1953#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,6 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/unittest/ex1/Program.java" />
         <option value="$PROJECT_DIR$/src/unittest/ex1/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/unittest/ex1/unittest/ex2/Caculator2.java" />
+        <option value="$PROJECT_DIR$/src/unittest/ex1/unittest/ex2/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -84,6 +112,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ex1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="ex2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -106,18 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.addTest">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unittest.ex1.Program" />
-      <module name="unittest-examples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittest.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -125,14 +156,14 @@
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unittest.ex1.*" />
+          <option name="PATTERN" value="unittest.ex1.unittest.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex1" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex1.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="unittest.ex1.unittest.ex2" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex1.unittest.ex2.CalculatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -144,18 +175,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.addTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unittest.ex1.*" />
+          <option name="PATTERN" value="unittest.ex1.unittest.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex1" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex1.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="unittest.ex1.unittest.ex2" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex1.unittest.ex2.CalculatorTest" />
       <option name="METHOD_NAME" value="addTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -167,7 +198,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.subTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex1.unittest.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex1.unittest.ex2" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex1.unittest.ex2.CalculatorTest" />
+      <option name="METHOD_NAME" value="subTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalculatorTest.subTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
@@ -179,7 +233,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="unittest.ex1" />
       <option name="MAIN_CLASS_NAME" value="unittest.ex1.CalculatorTest" />
-      <option name="METHOD_NAME" value="testAdd" />
+      <option name="METHOD_NAME" value="subTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalculatorTest.test_add_10plus32_expected42 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittest.ex1.unittest.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittest.ex1.unittest.ex2" />
+      <option name="MAIN_CLASS_NAME" value="unittest.ex1.unittest.ex2.CalculatorTest" />
+      <option name="METHOD_NAME" value="test_add_10plus32_expected42" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -229,17 +306,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Program" />
-      <item itemvalue="JUnit.CalculatorTest.testAdd" />
+      <item itemvalue="JUnit.CalculatorTest.subTest" />
+      <item itemvalue="JUnit.CalculatorTest.test_add_10plus32_expected42 (1)" />
       <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.addTest" />
+      <item itemvalue="JUnit.CalculatorTest.addTest (1)" />
+      <item itemvalue="JUnit.CalculatorTest.subTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.addTest" />
-        <item itemvalue="JUnit.CalculatorTest.testAdd" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="Application.Program" />
+        <item itemvalue="JUnit.CalculatorTest.subTest (1)" />
+        <item itemvalue="JUnit.CalculatorTest.addTest (1)" />
+        <item itemvalue="JUnit.CalculatorTest.test_add_10plus32_expected42 (1)" />
+        <item itemvalue="JUnit.CalculatorTest.subTest" />
       </list>
     </recent_temporary>
   </component>
@@ -257,23 +336,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_testAdd - 2018.06.14 at 11h 28m 17s.xml">
-      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_test_add_10plus32_expected42 - 2018.06.14 at 13h 26m 35s.xml">
+      <configuration name="CalculatorTest.test_add_10plus32_expected42" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testAdd - 2018.06.14 at 11h 28m 45s.xml">
-      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_subTest - 2018.06.14 at 13h 29m 44s.xml">
+      <configuration name="CalculatorTest.subTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.06.14 at 11h 28m 51s.xml">
+    <history-entry file="CalculatorTest_test_add_10plus32_expected42_(1) - 2018.06.14 at 13h 40m 54s.xml">
+      <configuration name="CalculatorTest.test_add_10plus32_expected42 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2018.06.14 at 13h 47m 26s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testAdd - 2018.06.14 at 11h 30m 15s.xml">
-      <configuration name="CalculatorTest.testAdd" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_addTest_(1) - 2018.06.14 at 13h 47m 36s.xml">
+      <configuration name="CalculatorTest.addTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_addTest - 2018.06.14 at 11h 47m 25s.xml">
-      <configuration name="CalculatorTest.addTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest - 2018.06.14 at 13h 47m 47s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_addTest - 2018.06.14 at 11h 50m 01s.xml">
-      <configuration name="CalculatorTest.addTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest - 2018.06.14 at 13h 47m 56s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2018.06.14 at 13h 48m 40s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_subTest_(1) - 2018.06.14 at 13h 48m 57s.xml">
+      <configuration name="CalculatorTest.subTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2018.06.14 at 13h 49m 07s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -282,7 +373,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32934782" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -314,9 +405,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/unittest/ex1/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="431">
+          <caret line="118" column="6" lean-forward="true" selection-start-line="96" selection-end-line="118" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#test_addTest#0;class#CalculatorTest#0" />
             <element signature="e#943#944#0" expanded="true" />
             <element signature="e#973#974#0" expanded="true" />
             <element signature="e#1007#1008#0" expanded="true" />
@@ -325,6 +418,24 @@
             <element signature="e#1090#1091#0" expanded="true" />
             <element signature="e#1126#1127#0" expanded="true" />
             <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittest/ex1/unittest/ex2/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1784#1785#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1870#1871#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
           </folding>
         </state>
       </provider>
