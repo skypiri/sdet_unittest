@@ -16,9 +16,6 @@ import java.io.IOException;
 
 //  Test Double 용도
 //  용도 1. 특수한 상황을 시뮬레이션 할 수 있다.
-
-
-
 class StubConnection implements Connection {
     @Override
     public void move(int x, int y) throws IOException {
@@ -84,7 +81,7 @@ class User {
         try {
             connection.move(x, y);
         } catch(IOException e) {
-//            throw new BadConnection();
+            throw new BadConnection();
         }
     }
 
