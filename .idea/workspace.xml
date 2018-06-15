@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testdouble/ex8/MockitoStubExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testdouble/ex9/MockitoLoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testdouble/ex8/MockitoExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testdouble/ex8/MockitoExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +53,8 @@
       <file leaf-file-name="SpyMockExamples.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="514">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -400,9 +396,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MockitoLoggerTest_isValid_MockitoTest - 2018.06.15 at 15h 40m 10s.xml">
-      <configuration name="MockitoLoggerTest.isValid_MockitoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MockitoLoggerTest_isValid_MockitoTest - 2018.06.15 at 15h 40m 19s.xml">
       <configuration name="MockitoLoggerTest.isValid_MockitoTest" configurationId="JUnit" />
     </history-entry>
@@ -428,6 +421,9 @@
       <configuration name="SpyMockExamples.playMusicTestWithMock" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SpyMockExamples - 2018.06.15 at 16h 14m 21s.xml">
+      <configuration name="SpyMockExamples" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpyMockExamples - 2018.06.15 at 16h 15m 03s.xml">
       <configuration name="SpyMockExamples" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -727,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="514">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

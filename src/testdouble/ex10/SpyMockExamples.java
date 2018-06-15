@@ -77,3 +77,33 @@ class Person {
 //        mp3.stop();
     }
 }
+
+//  Test Double Pattern
+//  종류 4가지
+//  1) Test Stub    -> Stub - *
+//  2) Fake Object  -> Fake
+//  3) Test Spy     -> Spy
+//  4) Mock Object  -> Mock - *
+
+//  목적
+//  :   테스트 대상 코드를 격리한다.
+//      SUT의 테스트 환경을 통제하는 목적으로 사용한다.
+
+//  1)  비결정적 요소를 제어한다. - Stub
+//      : 시간, 네트워크, 파일 시스템 등
+//  2)  만들어지지 않은 협력 객체에 의존하는 모듈을 검증하는 목적 - Fake
+//      사용하기 힘든 협력 객체에 의존하는 모듈을 검증하는 목적
+//  3)  테스트하는데 필요한 정보가 없는 경우, 목격한 일을 기록해서 테스트 가능하도록
+//      만들어 주는 역할 - Spy
+//  4)  행위 기반 테스트 - Mock
+
+//  핵심 : Test Double을 직접 만들어서 사용하는 것은
+//          테스트 코드의 유지 보수를 나쁘게 한다.
+//      ==> 이미 검증된 격리 프레임워크를 적절하게 활용하는 것이 좋다.
+//  C++ : GoogleMock
+//  Java : Mockito
+
+//  2권
+//  1) xUnit Test Pattern
+//  2) Effective Unit Testing
+
