@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/testdouble/ex1/EngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,29 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TerminalTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/unittest/ex5/TerminalTest.java">
+      <file leaf-file-name="EngineTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testdouble/ex1/EngineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="201" selection-start-line="201" selection-end-line="201" />
+            <state relative-caret-position="126">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserNameTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="61" column="67" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1670#1671#0" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
-                <element signature="e#1778#1779#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +61,7 @@
         <option value="$PROJECT_DIR$/src/unittest/ex5/Terminal.java" />
         <option value="$PROJECT_DIR$/src/unittest/ex5/TerminalTest.java" />
         <option value="$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java" />
+        <option value="$PROJECT_DIR$/src/testdouble/ex1/EngineTest.java" />
       </list>
     </option>
   </component>
@@ -104,6 +98,12 @@
               <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="Unittest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ex1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unittest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -119,6 +119,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unittest" type="462c0819:PsiDirectoryNode" />
               <item name="ex6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="ex6" type="462c0819:PsiDirectoryNode" />
+              <item name="UserNameTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -144,23 +152,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserNameTest">
+  <component name="RunManager" selected="JUnit.EngineTest.goTest2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="HamcrestExamples.getAccountNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EngineTest.goTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unittest.ex4.*" />
+          <option name="PATTERN" value="testdouble.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex4" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex4.HamcrestExamples" />
-      <option name="METHOD_NAME" value="getAccountNameTest" />
+      <option name="PACKAGE_NAME" value="testdouble.ex1" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex1.EngineTest" />
+      <option name="METHOD_NAME" value="goTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -302,19 +310,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HamcrestExamples.getAccountNameTest" />
       <item itemvalue="JUnit.TerminalTest" />
       <item itemvalue="JUnit.TerminalTest.name2" />
       <item itemvalue="JUnit.UserNameTest.isValidNameTest" />
       <item itemvalue="JUnit.UserNameTest" />
+      <item itemvalue="JUnit.EngineTest.goTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EngineTest.goTest2" />
         <item itemvalue="JUnit.UserNameTest" />
         <item itemvalue="JUnit.UserNameTest.isValidNameTest" />
         <item itemvalue="JUnit.TerminalTest" />
         <item itemvalue="JUnit.TerminalTest.name2" />
-        <item itemvalue="JUnit.HamcrestExamples.getAccountNameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -332,9 +340,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TerminalTest - 2018.06.14 at 16h 34m 17s.xml">
-      <configuration name="TerminalTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TerminalTest_name2 - 2018.06.14 at 16h 35m 22s.xml">
       <configuration name="TerminalTest.name2" configurationId="JUnit" />
     </history-entry>
@@ -362,6 +367,9 @@
     <history-entry file="UserNameTest - 2018.06.15 at 08h 33m 08s.xml">
       <configuration name="UserNameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserNameTest - 2018.06.15 at 08h 34m 23s.xml">
+      <configuration name="UserNameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,11 +384,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -477,14 +485,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/unittest/ex6/UserNameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="61" column="67" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
+        <state relative-caret-position="-781">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1638#1639#0" expanded="true" />
             <element signature="e#1670#1671#0" expanded="true" />
             <element signature="e#1761#1762#0" expanded="true" />
             <element signature="e#1778#1779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdouble/ex1/EngineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
