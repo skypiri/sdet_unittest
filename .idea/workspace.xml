@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="" />
+    <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/testdouble/ex7/DLogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unittest-examples.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="DLogTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DLogTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testdouble/ex6/DLogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="493">
+              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#502#503#0" expanded="true" />
@@ -27,6 +31,20 @@
                 <element signature="e#660#661#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
                 <element signature="e#340#341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DLogTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testdouble/ex7/DLogTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/testdouble/ex4/UserTest.java" />
         <option value="$PROJECT_DIR$/src/testdouble/ex5/UserManagerTest.java" />
         <option value="$PROJECT_DIR$/src/testdouble/ex6/DLogTest.java" />
+        <option value="$PROJECT_DIR$/src/testdouble/ex7/DLogTest.java" />
       </list>
     </option>
   </component>
@@ -114,7 +133,7 @@
               <item name="Unittest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testdouble" type="462c0819:PsiDirectoryNode" />
-              <item name="ex5" type="462c0819:PsiDirectoryNode" />
+              <item name="ex6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
@@ -122,6 +141,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testdouble" type="462c0819:PsiDirectoryNode" />
               <item name="ex6" type="462c0819:PsiDirectoryNode" />
+              <item name="DLogTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testdouble" type="462c0819:PsiDirectoryNode" />
+              <item name="ex7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
@@ -172,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DLogTest">
+  <component name="RunManager" selected="JUnit.DLogTest.writeTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -199,19 +226,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LoggerTest.isValidFilename_NameLongerThan5Chars_ReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DLogTest.writeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testdouble.ex3.*" />
+          <option name="PATTERN" value="testdouble.ex7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testdouble.ex3" />
-      <option name="MAIN_CLASS_NAME" value="testdouble.ex3.LoggerTest" />
-      <option name="METHOD_NAME" value="isValidFilename_NameLongerThan5Chars_ReturnTrue" />
+      <option name="PACKAGE_NAME" value="testdouble.ex7" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex7.DLogTest" />
+      <option name="METHOD_NAME" value="writeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -330,19 +357,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LoggerTest.isValidFilename_NameLongerThan5Chars_ReturnTrue" />
       <item itemvalue="JUnit.UserTest" />
       <item itemvalue="JUnit.UserTest.badConnectionTest" />
       <item itemvalue="JUnit.UserManagerTest.createTest" />
       <item itemvalue="JUnit.DLogTest" />
+      <item itemvalue="JUnit.DLogTest.writeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DLogTest.writeTest" />
         <item itemvalue="JUnit.DLogTest" />
         <item itemvalue="JUnit.UserManagerTest.createTest" />
         <item itemvalue="JUnit.UserTest.badConnectionTest" />
         <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.LoggerTest.isValidFilename_NameLongerThan5Chars_ReturnTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -360,12 +387,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserManagerTest_createTest - 2018.06.15 at 11h 36m 28s.xml">
-      <configuration name="UserManagerTest.createTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserManagerTest_createTest - 2018.06.15 at 11h 36m 50s.xml">
-      <configuration name="UserManagerTest.createTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserManagerTest_createTest - 2018.06.15 at 11h 38m 33s.xml">
       <configuration name="UserManagerTest.createTest" configurationId="JUnit" />
     </history-entry>
@@ -390,9 +411,16 @@
     <history-entry file="DLogTest - 2018.06.15 at 13h 42m 15s.xml">
       <configuration name="DLogTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DLogTest_writeTest - 2018.06.15 at 14h 34m 36s.xml">
+      <configuration name="DLogTest.writeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DLogTest_writeTest - 2018.06.15 at 14h 34m 53s.xml">
+      <configuration name="DLogTest.writeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -403,11 +431,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -626,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testdouble/ex6/DLogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="493">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
@@ -638,6 +666,18 @@
             <element signature="e#660#661#0" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdouble/ex7/DLogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
           </folding>
         </state>
       </provider>

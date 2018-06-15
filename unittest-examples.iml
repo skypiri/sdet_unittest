@@ -21,5 +21,6 @@
     <orderEntry type="library" name="mockito-core-2.18.9" level="project" />
     <orderEntry type="library" name="objenesis-2.6" level="project" />
     <orderEntry type="library" name="byte-buddy-agent-1.8.10" level="project" />
+    <orderEntry type="library" name="mockito" level="project" />
   </component>
 </module>
