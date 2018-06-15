@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="" />
+    <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/testdouble/ex3/LoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testdouble/ex2/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -41,6 +44,22 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testdouble/ex3/LoggerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="125" column="41" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2539#2540#0" expanded="true" />
+                <element signature="e#2577#2578#0" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
+                <element signature="e#2730#2731#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/testdouble/ex1/EngineTest.java" />
         <option value="$PROJECT_DIR$/src/testdouble/ex2/UserTest.java" />
         <option value="$PROJECT_DIR$/src/testdouble/ex1/User.java" />
+        <option value="$PROJECT_DIR$/src/testdouble/ex3/LoggerTest.java" />
       </list>
     </option>
   </component>
@@ -112,6 +132,13 @@
               <item name="Unittest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testdouble" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testdouble" type="462c0819:PsiDirectoryNode" />
+              <item name="ex3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
@@ -170,45 +197,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.privateTest">
+  <component name="RunManager" selected="JUnit.LoggerTest.isValidFilename_NameShorterThan5Chars_ReturnFalse">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EngineTest.goTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testdouble.ex1.*" />
+          <option name="PATTERN" value="testdouble.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testdouble.ex1" />
-      <option name="MAIN_CLASS_NAME" value="testdouble.ex1.EngineTest" />
-      <option name="METHOD_NAME" value="goTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unittest.ex6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex6" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex6.UserNameTest" />
+      <option name="PACKAGE_NAME" value="testdouble.ex3" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex3.LoggerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -220,19 +224,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserNameTest.isValidNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggerTest.isValidFilename_NameLoggerThan5Chars_ReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unittest.ex6.*" />
+          <option name="PATTERN" value="testdouble.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unittest.ex6" />
-      <option name="MAIN_CLASS_NAME" value="unittest.ex6.UserNameTest" />
-      <option name="METHOD_NAME" value="isValidNameTest" />
+      <option name="PACKAGE_NAME" value="testdouble.ex3" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex3.LoggerTest" />
+      <option name="METHOD_NAME" value="isValidFilename_NameLoggerThan5Chars_ReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LoggerTest.isValidFilename_NameShorterThan5Chars_ReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testdouble.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testdouble.ex3" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex3.LoggerTest" />
+      <option name="METHOD_NAME" value="isValidFilename_NameShorterThan5Chars_ReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -328,19 +355,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserNameTest.isValidNameTest" />
-      <item itemvalue="JUnit.UserNameTest" />
-      <item itemvalue="JUnit.EngineTest.goTest2" />
       <item itemvalue="JUnit.UserTest.sampleTest" />
       <item itemvalue="JUnit.UserTest.privateTest" />
+      <item itemvalue="JUnit.LoggerTest.isValidFilename_NameLoggerThan5Chars_ReturnTrue" />
+      <item itemvalue="JUnit.LoggerTest.isValidFilename_NameShorterThan5Chars_ReturnFalse" />
+      <item itemvalue="JUnit.LoggerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoggerTest.isValidFilename_NameShorterThan5Chars_ReturnFalse" />
+        <item itemvalue="JUnit.LoggerTest" />
+        <item itemvalue="JUnit.LoggerTest.isValidFilename_NameLoggerThan5Chars_ReturnTrue" />
         <item itemvalue="JUnit.UserTest.privateTest" />
         <item itemvalue="JUnit.UserTest.sampleTest" />
-        <item itemvalue="JUnit.EngineTest.goTest2" />
-        <item itemvalue="JUnit.UserNameTest" />
-        <item itemvalue="JUnit.UserNameTest.isValidNameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -358,15 +385,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserNameTest_isValidNameTest - 2018.06.15 at 08h 25m 37s.xml">
-      <configuration name="UserNameTest.isValidNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserNameTest - 2018.06.15 at 08h 26m 46s.xml">
-      <configuration name="UserNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserNameTest - 2018.06.15 at 08h 33m 08s.xml">
-      <configuration name="UserNameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserNameTest - 2018.06.15 at 08h 34m 23s.xml">
       <configuration name="UserNameTest" configurationId="JUnit" />
     </history-entry>
@@ -388,9 +406,19 @@
     <history-entry file="UserTest_privateTest - 2018.06.15 at 09h 23m 56s.xml">
       <configuration name="UserTest.privateTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoggerTest_isValidFilename_NameLoggerThan5Chars_ReturnTrue - 2018.06.15 at 10h 01m 18s.xml">
+      <configuration name="LoggerTest.isValidFilename_NameLoggerThan5Chars_ReturnTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoggerTest_isValidFilename_NameShorterThan5Chars_ReturnFalse - 2018.06.15 at 10h 02m 45s.xml">
+      <configuration name="LoggerTest.isValidFilename_NameShorterThan5Chars_ReturnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoggerTest - 2018.06.15 at 10h 07m 25s.xml">
+      <configuration name="LoggerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -401,11 +429,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -554,6 +582,20 @@
             <element signature="imports" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdouble/ex3/LoggerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="125" column="41" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2539#2540#0" expanded="true" />
+            <element signature="e#2577#2578#0" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
+            <element signature="e#2730#2731#0" expanded="true" />
           </folding>
         </state>
       </provider>
