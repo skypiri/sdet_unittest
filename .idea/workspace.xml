@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d188f4ff-a354-4871-93f7-7f5ca7c75df3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testdouble/ex8/MockitoExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testdouble/ex8/MockitoStubExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testdouble/ex9/MockitoLoggerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testdouble/ex8/MockitoExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testdouble/ex8/MockitoExamples.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,45 +18,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="DLogTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testdouble/ex6/DLogTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DLogTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testdouble/ex7/DLogTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MockitoExamples.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MockitoExamples.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testdouble/ex8/MockitoExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="154" column="43" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
+            <state relative-caret-position="514">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockitoStubExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testdouble/ex8/MockitoStubExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockitoLoggerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testdouble/ex9/MockitoLoggerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpyMockExamples.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,6 +102,9 @@
         <option value="$PROJECT_DIR$/src/testdouble/ex7/DLogTest.java" />
         <option value="$PROJECT_DIR$/src/testdouble/ex8/MochitoExamples.java" />
         <option value="$PROJECT_DIR$/src/testdouble/ex8/MockitoExamples.java" />
+        <option value="$PROJECT_DIR$/src/testdouble/ex8/MockitoStubExamples.java" />
+        <option value="$PROJECT_DIR$/src/testdouble/ex9/MockitoLoggerTest.java" />
+        <option value="$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java" />
       </list>
     </option>
   </component>
@@ -152,6 +160,13 @@
               <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="Unittest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testdouble" type="462c0819:PsiDirectoryNode" />
+              <item name="ex10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unittest-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="unittest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,22 +212,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MockitoExamples">
+  <component name="RunManager" selected="JUnit.SpyMockExamples">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MockitoExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockitoLoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testdouble.ex8.*" />
+          <option name="PATTERN" value="testdouble.ex9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testdouble.ex8" />
-      <option name="MAIN_CLASS_NAME" value="testdouble.ex8.MockitoExamples" />
+      <option name="PACKAGE_NAME" value="testdouble.ex9" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex9.MockitoLoggerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -224,19 +239,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MockitoExamples.fooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpyMockExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testdouble.ex8.*" />
+          <option name="PATTERN" value="testdouble.ex10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testdouble.ex8" />
-      <option name="MAIN_CLASS_NAME" value="testdouble.ex8.MockitoExamples" />
-      <option name="METHOD_NAME" value="fooTest" />
+      <option name="PACKAGE_NAME" value="testdouble.ex10" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex10.SpyMockExamples" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SpyMockExamples.playMusicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testdouble.ex10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testdouble.ex10" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex10.SpyMockExamples" />
+      <option name="METHOD_NAME" value="playMusicTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -247,19 +285,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MockitoExamples.gooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpyMockExamples.playMusicTestWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testdouble.ex8.*" />
+          <option name="PATTERN" value="testdouble.ex10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testdouble.ex8" />
-      <option name="MAIN_CLASS_NAME" value="testdouble.ex8.MockitoExamples" />
-      <option name="METHOD_NAME" value="gooTest" />
+      <option name="PACKAGE_NAME" value="testdouble.ex10" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex10.SpyMockExamples" />
+      <option name="METHOD_NAME" value="playMusicTestWithMock" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -270,42 +308,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MockitoExamples.gooTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpyMockExamples.playMusicTestWithSpy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testdouble.ex8.*" />
+          <option name="PATTERN" value="testdouble.ex10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testdouble.ex8" />
-      <option name="MAIN_CLASS_NAME" value="testdouble.ex8.MockitoExamples" />
-      <option name="METHOD_NAME" value="gooTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MockitoExamples.hooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittest-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testdouble.ex8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testdouble.ex8" />
-      <option name="MAIN_CLASS_NAME" value="testdouble.ex8.MockitoExamples" />
-      <option name="METHOD_NAME" value="hooTest" />
+      <option name="PACKAGE_NAME" value="testdouble.ex10" />
+      <option name="MAIN_CLASS_NAME" value="testdouble.ex10.SpyMockExamples" />
+      <option name="METHOD_NAME" value="playMusicTestWithSpy" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -355,19 +370,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MockitoExamples.fooTest" />
-      <item itemvalue="JUnit.MockitoExamples.gooTest" />
-      <item itemvalue="JUnit.MockitoExamples.gooTest2" />
-      <item itemvalue="JUnit.MockitoExamples.hooTest" />
-      <item itemvalue="JUnit.MockitoExamples" />
+      <item itemvalue="JUnit.MockitoLoggerTest" />
+      <item itemvalue="JUnit.SpyMockExamples.playMusicTest" />
+      <item itemvalue="JUnit.SpyMockExamples.playMusicTestWithSpy" />
+      <item itemvalue="JUnit.SpyMockExamples.playMusicTestWithMock" />
+      <item itemvalue="JUnit.SpyMockExamples" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MockitoExamples" />
-        <item itemvalue="JUnit.MockitoExamples.gooTest" />
-        <item itemvalue="JUnit.MockitoExamples.hooTest" />
-        <item itemvalue="JUnit.MockitoExamples.gooTest2" />
-        <item itemvalue="JUnit.MockitoExamples.fooTest" />
+        <item itemvalue="JUnit.SpyMockExamples" />
+        <item itemvalue="JUnit.SpyMockExamples.playMusicTestWithMock" />
+        <item itemvalue="JUnit.SpyMockExamples.playMusicTestWithSpy" />
+        <item itemvalue="JUnit.SpyMockExamples.playMusicTest" />
+        <item itemvalue="JUnit.MockitoLoggerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -385,35 +400,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MockitoExamples_gooTest - 2018.06.15 at 15h 05m 18s.xml">
-      <configuration name="MockitoExamples.gooTest" configurationId="JUnit" />
+    <history-entry file="MockitoLoggerTest_isValid_MockitoTest - 2018.06.15 at 15h 40m 10s.xml">
+      <configuration name="MockitoLoggerTest.isValid_MockitoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples_gooTest - 2018.06.15 at 15h 05m 25s.xml">
-      <configuration name="MockitoExamples.gooTest" configurationId="JUnit" />
+    <history-entry file="MockitoLoggerTest_isValid_MockitoTest - 2018.06.15 at 15h 40m 19s.xml">
+      <configuration name="MockitoLoggerTest.isValid_MockitoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples_gooTest - 2018.06.15 at 15h 05m 49s.xml">
-      <configuration name="MockitoExamples.gooTest" configurationId="JUnit" />
+    <history-entry file="MockitoLoggerTest_isValid_MockitoNameShorterThan5Chars_ReturnsFalse - 2018.06.15 at 15h 41m 21s.xml">
+      <configuration name="MockitoLoggerTest.isValid_MockitoNameShorterThan5Chars_ReturnsFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples_gooTest2 - 2018.06.15 at 15h 07m 18s.xml">
-      <configuration name="MockitoExamples.gooTest2" configurationId="JUnit" />
+    <history-entry file="MockitoLoggerTest_isValid_MockitoNameShorterThan5Chars_ReturnsFalse - 2018.06.15 at 15h 41m 34s.xml">
+      <configuration name="MockitoLoggerTest.isValid_MockitoNameShorterThan5Chars_ReturnsFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples_gooTest2 - 2018.06.15 at 15h 07m 28s.xml">
-      <configuration name="MockitoExamples.gooTest2" configurationId="JUnit" />
+    <history-entry file="MockitoLoggerTest - 2018.06.15 at 15h 42m 27s.xml">
+      <configuration name="MockitoLoggerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples_hooTest - 2018.06.15 at 15h 11m 17s.xml">
-      <configuration name="MockitoExamples.hooTest" configurationId="JUnit" />
+    <history-entry file="SpyMockExamples_playMusicTest - 2018.06.15 at 16h 05m 20s.xml">
+      <configuration name="SpyMockExamples.playMusicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples_hooTest - 2018.06.15 at 15h 12m 00s.xml">
-      <configuration name="MockitoExamples.hooTest" configurationId="JUnit" />
+    <history-entry file="SpyMockExamples_playMusicTest - 2018.06.15 at 16h 06m 52s.xml">
+      <configuration name="SpyMockExamples.playMusicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples_hooTest - 2018.06.15 at 15h 12m 17s.xml">
-      <configuration name="MockitoExamples.hooTest" configurationId="JUnit" />
+    <history-entry file="SpyMockExamples_playMusicTestWithSpy - 2018.06.15 at 16h 08m 40s.xml">
+      <configuration name="SpyMockExamples.playMusicTestWithSpy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples - 2018.06.15 at 15h 12m 28s.xml">
-      <configuration name="MockitoExamples" configurationId="JUnit" />
+    <history-entry file="SpyMockExamples_playMusicTestWithMock - 2018.06.15 at 16h 08m 45s.xml">
+      <configuration name="SpyMockExamples.playMusicTestWithMock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockitoExamples_hooTest - 2018.06.15 at 15h 12m 40s.xml">
-      <configuration name="MockitoExamples.hooTest" configurationId="JUnit" />
+    <history-entry file="SpyMockExamples - 2018.06.15 at 16h 14m 21s.xml">
+      <configuration name="SpyMockExamples" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -682,8 +697,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testdouble/ex8/MockitoExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="154" column="43" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
+        <state relative-caret-position="514">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdouble/ex8/MockitoStubExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdouble/ex9/MockitoLoggerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdouble/ex10/SpyMockExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

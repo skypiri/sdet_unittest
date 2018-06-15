@@ -161,3 +161,6 @@ public class MockitoExamples {
     }
 
 }
+
+//  Mockito Framework --> 격리 프레임워크
+//                      ==> Stub, Spy도 만들 수 있음.
